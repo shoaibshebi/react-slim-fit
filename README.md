@@ -1,6 +1,6 @@
 <img src="./1.png" alt="img">
 
-## `[GEt the Demo here](https://slimfit-c1180.firebaseapp.com)`
+[GEt the Demo here](https://slimfit-c1180.firebaseapp.com/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
