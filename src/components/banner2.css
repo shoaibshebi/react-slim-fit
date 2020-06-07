@@ -1,0 +1,206 @@
+
+.navbar{
+  display: inline-block;
+  margin-bottom: 20px;
+  color:white;
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-right: 20%;
+  margin-left:12%; 
+
+}
+.navbar li{
+  padding: 20px;  
+}
+.navbar li:first-child{
+  color:#FC5C22;
+}
+
+/*
+
+
+  logo
+
+
+
+ */
+.all-logo{
+  position: absolute;
+  top:14%;
+  left:41.5%;
+  /*display: inline-block;*/
+  
+}
+.all-logo .logo{
+  /*margin-top: 10px;*/
+  display: inline-block;
+  color:#FC5C22;
+}
+.all-logo #comp-name{
+  color: white;
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+
+
+
+
+
+.content{
+  margin-left: 25%;
+  margin-top: 12%;
+
+}
+.content h1{
+  margin-bottom: 40px;
+  color:white;
+  font-weight: 900;
+  margin-left: 10%;
+}
+.content p{
+  color:white;
+  line-height: 10px;
+
+
+  /*font-size: 10px*/
+
+}
+.content .nd{
+  margin-left: 10%
+}
+.content .btn{
+  background-color: #FC5C22;
+  margin-right: 20px;
+  margin-top:-10px;
+  margin-left: 25% ;
+  border-radius:20px;
+}
+.content .need{
+  background-color: grey;
+  
+}
+
+
+.banner-back{
+  background: url('../assets/img/w4.jpg');
+  /*background-repeat: no-repeat;*/
+  background-attachment: fixed;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 72%, 0% 100%);
+}
+.banner{
+  
+  background-color: rgb(0, 0, 0);
+  opacity: 0.8;
+/*clip-path: polygon(0 0, 100% 0, 0 100%, 0 100%);*/
+  height: 560px;
+  width: 100%;
+}
+
+
+
+
+
+
+section {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+section .line2{
+  height: 40px;
+  width: 6px;
+  background-color:#FC5C22;
+  display: inline-block;
+  border-radius: 10px;
+}
+section h1{
+  display: inline-block;
+  font-weight: 900;
+
+}
+
+
+section #expect{
+  margin-left: 30%;
+  /*float: right;*/
+}
+section p.line3{
+  height: 40px;
+  width: 6px;
+  background-color:#FC5C22;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+section .line-before{
+  display:none;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) and (min-width: 360px) {
+ .navbar{
+  display: inline-block;
+  margin-bottom: 20px;
+  color:white;
+  font-weight: bold;
+  list-style: none;
+  /*display: flex;*/
+  justify-content: center;
+  /*margin-right: 20%;*/
+  /*margin-left:12%; */
+}
+.navbar li{
+  list-style: inherit;
+}
+.content{
+display: none;
+}
+.all-logo{
+  top:20%;
+  left: 50%;
+}
+/* .dash{
+  border-radius: 2px;
+  height: 1px;
+  width: 15px;
+  background-color: white;
+  display: inline-block;
+  float: right;
+
+} */
+section p.line3,p.line2{
+  display: none;
+}
+section h1{
+  display: inline-block;
+  font-weight: 900;
+  font-size: 20px;
+
+}
+section .line-before{
+  display: block;
+}
+section .line-after{
+  display: none;
+}
+
+
+}
+
+@media (max-width: 1250px) {
+ 
+
+
+}

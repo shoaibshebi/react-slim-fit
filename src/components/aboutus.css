@@ -1,0 +1,17 @@
+
+
+
+.img-fixed{
+  background-image: url("../assets/img/w2.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 500px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+
+@media (max-width: 900px) and (min-width: 360px) {
+	
+}
